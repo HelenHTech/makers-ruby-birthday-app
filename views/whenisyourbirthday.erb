@@ -1,13 +1,20 @@
 <h1>Good morning!<h1>
-<h2>What is your name?<h2>
+<%# <h2>What is your name?<h2>
 
 </form action="/birthdayanswer" method="post">
 <input type="text" name="name">
-</form>
-
-<h2>What is your birthday?<h2>
-
-<form action="/birthdayanswer" method="post">
+<p>What is your birthday?<p>
 <input type="date" name="date">
 <input type="submit" value="Submit">
-</form>
+</form> %>
+
+<form action="/birthdayanswer" method="post">
+  What is your name?<br>
+  <input type="text" name="name">
+  <br>
+  What is your birthday?<br>
+  <input type="date" name="date">
+
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
