@@ -1,0 +1,22 @@
+<% if @name %>
+<h1>Happy birthday <%= @name %><h1>
+<% end %>
+
+<%# <% if @date_today == "date" %> %>
+<%# <h1>Happy birthday<%= @name %><h1> %>
+<%# <% else %> %>
+<%# <% if (birthday is not today, work out how many days - code this bit) %> %>
+<%# <h2>Looks like your birthday is not for <%@number_of_days%> 
+<%# days, <%@name %>!<h2> %> %>
+<%# <% end %> %>
+
+<form action="/birthdayanswer">
+</form>
+
+<%# 
+  # Take user to a new screen showing them either
+  # 'Happy birthday #{name}'
+  # else
+  # 'Looks like your birthday is not for XX days, #{name}'
+  # Equation need to calculate the current date, and work out number of days until that date
+# end %>
