@@ -1,6 +1,6 @@
-Makers - Birthday App
+# Birthday App
  
- User story
+User story
  
 Your challenge is to build a web app that will ask the user for a name and birthday.
  
@@ -11,7 +11,7 @@ Tell them how long they'll have to wait until their next birthday
  
 Steps
  
-Create birthday_app.rb file, and require ‘sinatra’ - This is where we will add our routes
+Create birthday_app.rb file, and require ‘sinatra’ - This is where we will add our routes<p>
 Define the link get '/whenisyourbirthday'
 Define the link post '/birthdayanswer’
 Within, define the Date.today, and set as @instance variable
@@ -19,10 +19,10 @@ Within, define the Date.today, and set as @instance variable
 Initial print to the screen:
 'Good morning'
 'What is your name?'
-# Provide a text box for the user’s name
+Provide a text box for the user’s name
 'When is your birthday?'
-# Provide the user a date box to enter day, month of birth
-# Provide a Submit button
+Provide the user a date box to enter day, month of birth
+Provide a Submit button
 The submit button should take the user to a screen wishing the user happy birthday, or telling them the amount of days to their next birthday
 In the whenisyourbirthday.rb file, the following need to be added:
 A form, containing:
